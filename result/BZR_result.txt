@@ -1,0 +1,7 @@
+Load Saved .pth File
+BZR_Result:
+ACC: 82.72 (0.00)
+NMI: 16.19 (0.00)
+ARI: 21.75 (0.00)
+
+
