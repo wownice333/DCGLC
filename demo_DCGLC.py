@@ -42,7 +42,7 @@ if __name__ == '__main__':
     lr = args.lr
     # DS = args.DS
     print(args.aug)
-    for DS in ['BZR','AIDS','DD']:#
+    for DS in ['BZR']:#
         args.DS=DS
         path = osp.join(osp.dirname(osp.realpath(__file__)), 'data', DS)
         dataset = TUDataset(path, name=DS, aug=args.aug)#.shuffle()
