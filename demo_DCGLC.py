@@ -151,7 +151,7 @@ if __name__ == '__main__':
                                 p = target_distribution(torch.tensor(tmp_q)).to(device)
                                 if acc > accmax:
                                     accmax = acc
-                                    torch.save(model.state_dict(), './weight/' + args.DS +'_'+str(acc)+'_model.pth')
+                                    # torch.save(model.state_dict(), './weight/' + args.DS +'_'+str(acc)+'_model.pth')
                                 if nmi > nmimax:
                                     nmimax = nmi
                                 if ari > arimax:
