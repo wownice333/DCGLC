@@ -28,6 +28,7 @@ If you've found DCGLC useful for your research, please cite our paper as follows
   title={Dual Contrastive Graph-Level Clustering with Multiple Cluster Perspectives Alignment},
   author={Cai, Jinyu and Zhang, Yunhe and Fan, Jicong and Du, Yali and Guo, Wenzhong},
   booktitle={International Joint Conference on Artificial Intelligence},
+  pages={3770--3779},
   year={2024}
 }
 
