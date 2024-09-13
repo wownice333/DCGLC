@@ -101,7 +101,7 @@ if __name__ == '__main__':
                 args.lamda = lamda
                 for beta in para_set:
                     args.beta = beta
-                    iter = 1
+                    iter = 10
                     ACCList = np.zeros((iter, 1))
                     NMIList = np.zeros((iter, 1))
                     ARIList = np.zeros((iter, 1))
